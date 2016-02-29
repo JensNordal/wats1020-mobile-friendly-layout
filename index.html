@@ -6,21 +6,17 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Mobile Friendly Layout Experiments</title>
-        <meta name="description" content="Mobile friendly layout experiments.">
+        <title>Videos and other services</title>
+        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
-
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
@@ -28,58 +24,68 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-      <!-- TODO:
+  <div class="header" id="page-header">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom" id="navbar">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand"><img src="" alt="Logo"></div>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-navbar-collapse" role="navigation">
+          <ul class="nav navbar-nav navbar-right" id="navbar-right">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#latest-projects">LATEST PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+    </nav>
+        <section class="video">
+		<div id="video-container">
+			<iframe class="fillWidth" src="//player.vimeo.com/video/71119140?autoplay=1&autopause=0&badge=0&byline=0&title=0&portrait=0controls=0&background=1&#t=0sec" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div><!-- End .video-container -->
+        </section>
+        </div><!-- /.page-header -->
+  <section class="services-description bg-white wow fadeIn" id="about">
+    <div class="services-description">
+      <div class="container-fluid">
+        <div class="row wow fadeIn animated" id="services">
+            <div class="col-md-4 wow fadeIn animated"><h1><i class="fa fa-video-camera wow fadeIn animated"></i></h1><h2><strong> Video and</strong><br>film production</h2><p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+            <div class="col-md-4 wow fadeIn animated"><h1><i class="fa fa-caret-square-o-right wow fadeIn animated"></i></h1><h2><strong> Cinematography and</strong><br>special effects</h2><p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+            <div class="col-md-4 wow fadeIn animated"><h1><i class="fa fa-list-alt wow fadeIn animated"></i></h1><h2><strong> Web</strong><br>video</h2><p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+            <div class="col-md-4 wow fadeIn animated"><div class="clearfix visible-md-block"></div><h1><i class="fa fa-picture-o wow fadeIn animated"></i></h1><h2><strong> Editing </strong></h2><p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+            <div class="col-md-4 wow fadeIn animated"><h1><i class="fa fa-smile-o wow fadeIn animated"></i></h1><h2><strong> Advertising and</strong><br>branded videos</h2><p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+            <div class="col-md-4 wow fadeIn animated"><h1><i class="fa fa-film wow fadeIn animated"></i></h1><h2><strong> Video formatting</strong><br> and compression</h2><p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div>
+        </div>
+        <div class="row col-md-12 wow fadeIn animated">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <h1 class="wow fadeIn">Example</h1>
 
-                Create a mobile friendly page header. This may be a navigation
-                bar, but it does not have to be a navigation bar. In fact, it
-                may be more beneficial to try to mock up something more like
-                what you hope to see in your final projects header (title, score,
-                etc.).
-      -->
+      </div>
+      </div>
+  </section>
 
-      <!-- TODO:
 
-                Create a mobile friendly gallery layout that displays a set of
-                at least 24 images. Each image should be displayed along with some
-                metadata: title of image and a brief description. You may use
-                placeholder text (see http://lipsum.com) for both if you do not
-                have titles or descriptions available.
-
-                You may use any HTML structures you want, and this file has
-                Bootstrap linked in, so you may use the responsive layout and
-                image tools that Bootstrap includes.
-      -->
-
-      <!-- TODO:
-
-                Create a mobile-friendly Footer that includes three columns. The
-                columns should contain the following content.
-
-                Column 1:
-
-                  This description: "This page is meant to provide an experimental
-                  proof of concept for a mobile-friendly layout that can be used
-                  to inform the creation of a card matching game."
-
-                Column 2:
-
-                  A list of styled links. These links will be imaginary, and
-                  you should focus on styling them and laying them out in a
-                  way that works well when viewed in both mobile and desktop
-                  browsers.
-
-                Column 3:
-
-                  A table of high scores. Populate at least five rows of the
-                  table with imaginary player names and high scores. The table
-                  should have two columns: name and score.
-      -->
-
+        <footer>
+        <div class="row footer-row">
+            <div class="col-md-4"><a href="#about">ABOUT</a></div>
+            <div class="col-md-4"><a href="#services">SERVICES</a></div>
+            <div class="col-md-4"><a href="#contact">CONTACT</a></div>
+        </div>
+        </footer>
 
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
       <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
-
+      <script src="js/vendor/bootstrap.js"></script>
       <script src="js/vendor/bootstrap.min.js"></script>
+      <script src="js/vendor/npm.js"></script>
+      <script src="js/wow.js"></script>
 
       <script src="js/main.js"></script>
 
