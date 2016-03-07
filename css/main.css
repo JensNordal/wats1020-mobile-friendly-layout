@@ -84,21 +84,20 @@ p {
  /*--- Begin Header Styling ---*/
 
  .navbar {
- 	height: 11%;
+ 	height: 13%;
  	background: rgba(0, 0, 0, 0.8);
  	border: none;
  }
 
 .onScroll {
-    height: 10%;
+    height: 12%;
  	background: rgba(0, 0, 0, 0.2);
  	border: none;
 }
 
- .navbar-brand img {
- 	width: 100%;
- 	height: auto;
- 	vertical-align: middle;
+ .navbar-brand img{
+ 	width: 27%;
+    height: auto;
  	margin-left: 15px;
  }
 
@@ -206,7 +205,7 @@ p {
     margin: 0;
     height: 50vh;
     width: 100%;
-    background: url(/wats1020-mobile-friendly-layout/img/vintage_old_film.jpg) no-repeat center center fixed;
+    background: url(/img/vintage_old_film.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -229,7 +228,7 @@ p {
     margin: 0;
     height: 50vh;
     width: 100%;
-    background: url(/wats1020-mobile-friendly-layout/img/mobile_video.jpg) no-repeat center center fixed;
+    background: url(/img/mobile_video.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -257,7 +256,7 @@ p {
     margin: 0;
     height: 50vh;
     width: 100%;
-    background: url(/wats1020-mobile-friendly-layout/img/seattle.jpg) no-repeat center center fixed;
+    background: url(/img/seattle.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
