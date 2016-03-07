@@ -1,6 +1,6 @@
     // SCROLLMAGIC CONTROLLER
 
-    jQuery(function ($) {
+ /*   jQuery(function ($) {
     var controller = new ScrollMagic.Controller();
     var tween = TweenMax.staggerFromTo("#parallax2", 2, {
         backgroundPosition: "0 0"
@@ -15,7 +15,7 @@
     scene.addIndicators();
 });
 
-
+*/
 
 
 
