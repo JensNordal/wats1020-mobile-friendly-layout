@@ -1,4 +1,21 @@
-    // SCROLLMAGIC CONTROLLER
+// Change navbar class to make transparent
+$(function() {
+    var header = $(".navbar");
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 10) {
+            header.removeClass('navbar').addClass("onScroll");
+        } else {
+            header.removeClass("onScroll").addClass('navbar');
+        }
+    });
+});
+
+
+
+
+// SCROLLMAGIC CONTROLLER
 
  /*   jQuery(function ($) {
     var controller = new ScrollMagic.Controller();
