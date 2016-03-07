@@ -6,11 +6,15 @@
 
  body {
     font-family: 'lato', sans-serif;
- 	color: black;
+ 	color: dimgray;
  	font-size: 16px;
     padding: 0;
     margin: 0;
  }
+
+p {
+    line-height: 1.6;
+}
 
  html {
  	padding: 0;
@@ -144,6 +148,8 @@
  .navbar-collapse ul li a {
  	color: black;
  }
+/*--- End header styling ---*/
+/*--- Begin video styling ---*/
 
 .video {
     padding: 0;
@@ -159,7 +165,7 @@
 #video-container iframe,
 #video-container object,
 #video-container embed {
-    position: absolute; /* !!!!!!  TODO:  Changing to 'absolute' fixes responsive issues (overflow). How can this be changed to 'fixed' and not create black space around video? */
+    position: absolute; /* !!!!!!  TODO:  Setting to 'absolute' fixes responsive issues (overflow). How can this be changed to 'fixed' and not create black space around video? */
     top: 0;
     left: 0;
     width: 100%;
@@ -169,13 +175,110 @@
 .fillWidth {
 	width: 100%;
 }
+/*--- End video styling ---*/
+/*--- Begin #about (services) section styling ---*/
+
+.welcome {
+    padding: 2rem;
+    margin: 0;
+}
+
+/*.welcome-bg {
+    padding: 0;
+    margin: 0;
+    height: 50vh;
+    width: 100%;
+    background: url(/img/vintage_old_film.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+.services-bg {
+    padding: 0;
+    margin: 0;
+    height: 50vh;
+    width: 100%;
+    background: url(/img/vintage_old_film.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 #about {
     background-color: white;
     padding: 3rem;
     margin: 0;
-
 }
+
+.latest-projects {
+    padding: 2rem;
+    margin: 0;
+}
+
+.latest-projects-bg {
+    padding: 0;
+    margin: 0;
+    height: 50vh;
+    width: 100%;
+    background: url(/img/mobile_video.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#lp-video-container {
+    position: relative;
+    padding: 0 0 56.25% 0;
+    overflow: hidden;
+}
+
+#lp-video-container iframe,
+#lp-video-container object,
+#lp-video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 30%;
+}
+
+.contact-bg {
+    padding: 0;
+    margin: 0;
+    height: 50vh;
+    width: 100%;
+    background: url(/img/seattle.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.contact {
+    background-color: dimgrey;
+    padding: 0;
+    margin: 0;
+}
+
+/*--- End #about section styling ---*/
+/*--- Begin contact section styling ---*/
+
+#map {
+    margin: 0;
+    padding: 0;
+}
+
+#map-container {
+    height: 260px;
+}
+
+
+/*--- End contact section styling ---*/
+/*--- Begin footer styling ---*/
 
 footer {
     background-color: black;
@@ -192,9 +295,9 @@ footer {
 
 
 
-/*==========  Media Queries  ==========*/
+/*---  Media Queries  ---*/
 
-/*=====  !!!!***  TODO: IS THERE A BETTER WAY TO ADJUST VIDEO SIZES TO AVOID BLACK SPACE?  ***!!!   =====*/
+/*---  !!!!***  TODO: IS THERE A BETTER WAY TO ADJUST VIDEO SIZES TO AVOID BLACK SPACE?  ***!!!   ---*/
 
     /* Custom, iPhone Retina */
 /*    @media only screen and (min-width : 320px) {
