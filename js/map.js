@@ -36,7 +36,7 @@ $(document).ready(function() {
 
     //Add markers, circle, and polygon to identify key areas on map
     var marker = L.marker([47.608013, -122.335167]).addTo(map);
-        marker.bindPopup('<b>Hello!</b><br>We are located right here in beautiful downtown Seattle, WA<br><a href="#contact">Contact Us for More Info</a>');
+        marker.bindPopup('<b>Videophile Productions</b><br>1234 5th AVE<br>Seattle, WA.<br>98144');
 
 
 	//Listen for clicks on map and return lat/long in popup
@@ -51,4 +51,4 @@ $(document).ready(function() {
 
 	map.on('click', onMapClick);
 
-    });
+});

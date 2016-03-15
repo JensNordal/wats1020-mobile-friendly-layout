@@ -1,0 +1,214 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Videos and other services</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <div class="header" id="page-header">
+        <nav class="navbar navbar-default navbar-fixed-top navbar-custom" id="navbar">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                <div class="navbar-brand"><img src="../img/videophile_logo.png" alt="Logo"></div>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-navbar-collapse" role="navigation">
+                <ul class="nav navbar-nav navbar-right" id="navbar-right">
+                    <li><a href="/index.html#services">SERVICES</a></li>
+                    <li><a href="/index.html#latest-projects">LATEST PROJECTS</a></li>
+                    <li><a href="/index.html#our-clients">CLIENTS</a></li>
+                    <li><a href="#0" data-toggle="modal" data-target="#bannerformmodal">CONTACT</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+    </div>
+
+    <section class="thank-you-bg bg-white wow fadeIn" id="thank-you">
+        <div class="container-fluid">
+            <div class="row wow fadeIn animated">
+                <div class=".col-md-6 .col-md-offset-3 wow fadeIn animated thank-you-text">
+                    <h1>Thank you for contacting us! We'll be in touch shortly...</h1>
+                    <br>
+                    <button class="btn btn-default btn-lg" onclick="goBack()">Done</button>
+                    <script>
+                        function goBack() {
+                            window.history.back();
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row footer-row">
+            <div class="col-md-3"><a href="index.html#services">SERVICES</a></div>
+            <div class="col-md-3"><a href="index.html#latest-projects">LATEST PROJECTS</a></div>
+            <div class="col-md-3"><a href="index.html#our-clients">CLIENTS</a></div>
+            <div class="col-md-3"><a href="#" data-toggle="modal" data-target="#bannerformmodal">CONTACT</a></div>
+           <div class="col-xs-12 copyright wow fadeIn animated">
+                <p><small>&copy; 2016<a href="http://jensnordal.com"> Jens Nordal</a></small></p>
+                <p><small>All videos by<a href="http://www.nicmclean.com"> Nic McLean</a></small></p>
+            </div>
+
+            <div class="modal fade bannerformmodal" tabindex="-1" role="dialog" aria-labelledby="bannerformmodal" aria-hidden="true" id="bannerformmodal">
+                <div class="modal-dialog modal-md">
+                    <div class="modal-content">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Get in touch! We'd love to hear from you.</h4>
+                            </div>
+                            <div class="modal-body">
+                                <form class="form-horizontal" action="/index.html" method="get" id="contact-form">
+                                    <fieldset>
+                                        <div class="form-group required" aria-required="true">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                <input id="first_name" name="first_name" type="text" class="form-control" placeholder="First Name" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                <input id="last_name" name="last_name" type="text" class="form-control" placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                        <div class="form-group required" aria-required="true">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                                <input id="your_email" name="your_email" type="text" class="form-control" placeholder="Email" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-group"></i></span>
+                                                <input id="company_name" name="company_name" type="text" class="form-control" placeholder="Company Name">
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                                <input id="phone_number" name="phone_number" type="text" class="form-control" placeholder="Phone Number">
+                                            </div>
+                                        </div>
+                                        <div class="form-group required" aria-required="true">
+                                            <div class="input-group">
+                                                <span class="input-group-addon"><i class="fa fa-check-square"></i></span>
+                                                <input type="text" class="form-control" name="InputReal" id="InputReal" placeholder="Spam Checker:  What is 4+3?" required>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <div class="controls">
+                                                <textarea class="form-control" rows="5" id="your_message" name="your_message" placeholder="Message"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-5 col-md-push-1">
+                                <address>
+                                    <br>
+                                    <p class="contact-form"><a href="#">Videophile Productions, Inc.</a><br>1234 5th AVE<br>
+                                    Seattle, WA 98144<br><br>
+                                    Phone: 888-123-4567<br>
+                                    Fax: 888-555-1212</p>
+                                    <a href="http://www.facebook.com"><i class="fa fa-facebook-square" id="contact-form-fa"></i></a>
+                                    <a href="http://www.twitter.com"><i class="fa fa-twitter-square contact-form-fa"></i></a>
+                                    <a href="http://www.vimeo.com"><i class="fa fa-vimeo-square contact-form-fa"></i></a>
+                                    <a href="http://www.youtube.com"><i class="fa fa-youtube-square contact-form-fa"></i></a>
+                                    <a href="http://www.instagram.com"><i class="fa fa-instagram contact-form-fa"></i></a>
+                                </address>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-primary" id="submit-form">Submit</button>
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Social Buttons -->
+    <div class="social-btns">
+        <ul class="social-links">
+        <li><img width="32" height="32" title="" alt="facebook" src="../img/facebook.png" />
+            <a href="http://www.facebook.com"><p>Facebook</p></a>
+        </li>
+        <li><img width="32" height="32" title="" alt="twitter" src="../img/twitter.png" />
+            <a href="http://www.twitter.com"><p>Twitter</p></a>
+        </li>
+        <li><img width="32" height="32" title="" alt="linkedin" src="../img/linkedin.png" />
+            <a href="http://www.linkedin.com"><p>Linkedin</p></a>
+        </li>
+        <li><img width="30" height="32" title="" alt="vimeo" src="../img/vimeo.png" />
+            <a href="http://www.vimeo.com"><p>Vimeo</p></a>
+        </li>
+        <li><img width="30" height="32" title="" alt="youtube" src="../img/youtube.png" />
+            <a href="http://www.youtube.com"><p>YouTube</p></a>
+        </li>
+        </ul>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.js"><\/script>')</script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/vendor/npm.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/main.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="js/map.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/jquery.validate.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.validation/1.15.0/additional-methods.min.js"></script>
+
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function (b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function () {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = '//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+</html>
