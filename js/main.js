@@ -19,12 +19,12 @@ $(document).on('ready', function () {
 
     //Remove video in header from iOS devices
     var iOS = /iPad|iPhone|iPod/.test(navigator.platform);
-    if( iOS ) {
-        var background_videos = document.querySelectorAll( '.video-container .video video' );
-        for( i=0; i<background_videos.length; i++ ) {
-            background_videos[i].parentNode.removeChild(background_videos[i]);
-        }
+if( iOS ) {
+    var background_videos = document.querySelectorAll('#video-container video');
+    for( i=0; i<background_videos.length; i++ ) {
+        background_videos[i].parentNode.removeChild(background_videos[i]);
     }
+}
 
     // Validate contact form input data
     $('#contact-form').validate({
@@ -95,7 +95,7 @@ $(document).on('ready', function () {
         }, scroll_top_duration);
     });
 
-    // Script to display and hide .details text
+    // Script to display and hide .details (client list) text
     $('.view-details').on('click', function (event) {
         console.log(event);
         var targetElement = event.target;
