@@ -63,26 +63,22 @@ h4 a:active {
 
 /*--- Begin Navbar Styling ---*/
 .navbar {
-    height: 14%;
+    height: auto;
     background: rgba(0, 0, 0, 0.8);
     border: none;
 }
 .onScroll {
-    height: 14%;
     background: rgba(0, 0, 0, 0.2);
     border: none;
 }
 .navbar-brand img {
-    width: auto;
-    height: 330%;
-    vertical-align: middle;
     margin-left: 15px;
     border-radius: 3px;
 }
 #navbar-right {
-    vertical-align: middle;
+    vertical-align: top;
     line-height: 15px;
-    padding: 30px 50px 20px 0;
+    padding: 0 2rem 0 0;
     font-weight: bold;
     border: none;
 }
