@@ -197,6 +197,7 @@ h4 a:active {
     -o-background-size: cover;
     background-size: cover;
     z-index: -1;
+    overflow: scroll;
 }
 #about {
     background-color: white;
